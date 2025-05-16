@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Shifa Hospital - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://img.icons8.com/color/48/000000/hospital-3.png" alt="Hospital Logo">
+                <h1>Al-Shifa Hospital</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#appointment">Book Appointment</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+                <li><a id="lang-toggle" class="lang-btn" href="#">English</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 id="hero-title" class="animate-on-scroll">We Care About Your Health</h1>
+            <p id="hero-desc" class="animate-on-scroll">We provide the best medical services with the latest technologies and highest quality standards</p>
+            <div class="hero-buttons animate-on-scroll">
+                <a href="#appointment" class="cta-button" id="hero-book-btn">Book Now</a>
+                <a href="#services" class="secondary-button" id="hero-services-btn">Our Services</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="statistics" class="statistics">
+        <div class="stats-container">
+            <div class="stat-item animate-on-scroll">
+                <i class="fas fa-user-md"></i>
+                <div class="stat-number" data-target="150">0</div>
+                <h3>Specialist Doctors</h3>
+            </div>
+            <div class="stat-item animate-on-scroll">
+                <i class="fas fa-user-nurse"></i>
+                <div class="stat-number" data-target="300">0</div>
+                <h3>Nurses</h3>
+            </div>
+            <div class="stat-item animate-on-scroll">
+                <i class="fas fa-procedures"></i>
+                <div class="stat-number" data-target="500">0</div>
+                <h3>Patient Beds</h3>
+            </div>
+            <div class="stat-item animate-on-scroll">
+                <i class="fas fa-smile"></i>
+                <div class="stat-number" data-target="10000">0</div>
+                <h3>Happy Patients</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="section-title animate-on-scroll" id="services-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card animate-on-scroll">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Cardiology</h3>
+                <p>Comprehensive services for heart and vascular diseases</p>
+                <a href="cardiology.html" class="service-link">Read More</a>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <i class="fas fa-brain"></i>
+                <h3>Neurology</h3>
+                <p>Diagnosis and treatment of nervous system diseases</p>
+                <a href="#" class="service-link">Read More</a>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <i class="fas fa-bone"></i>
+                <h3>Orthopedics</h3>
+                <p>Treatment of bone and joint injuries and diseases</p>
+                <a href="#" class="service-link">Read More</a>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <i class="fas fa-stethoscope"></i>
+                <h3>Pediatrics</h3>
+                <p>Comprehensive healthcare for children</p>
+                <a href="#" class="service-link">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors">
+        <h2 class="section-title animate-on-scroll" id="doctors-title">Our Medical Team</h2>
+        <div class="doctors-grid">
+            <div class="doctor-card animate-on-scroll">
+                <div class="doctor-image">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Dr. Ahmed Mohamed">
+                </div>
+                <div class="doctor-info">
+                    <h3>Dr. Ahmed Mohamed</h3>
+                    <p>Cardiology Consultant</p>
+                    <div class="doctor-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-card animate-on-scroll">
+                <div class="doctor-image">
+                    <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Dr. Sarah Ahmed">
+                </div>
+                <div class="doctor-info">
+                    <h3>Dr. Sarah Ahmed</h3>
+                    <p>Pediatrics Consultant</p>
+                    <div class="doctor-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-card animate-on-scroll">
+                <div class="doctor-image">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Dr. Mohamed Ali">
+                </div>
+                <div class="doctor-info">
+                    <h3>Dr. Mohamed Ali</h3>
+                    <p>Orthopedic Surgery Consultant</p>
+                    <div class="doctor-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <h2 class="section-title animate-on-scroll" id="appointment-title">Book Appointment</h2>
+        <div class="appointment-container">
+
+
+
+
+
+
+
+            <form id="appointment-form" class="animate-on-scroll" method="post">
+                <div class="form-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="name" required placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" required placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" id="phone" required placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-hospital"></i>
+                    <select id="department" required>
+                        <option value="">Select Department</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="orthopedics">Orthopedics</option>
+                        <option value="pediatrics">Pediatrics</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-calendar"></i>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-clock"></i>
+                    <select id="time" required>
+                        <option value="">Select Time</option>
+                        <option value="09:00">09:00 AM</option>
+                        <option value="10:00">10:00 AM</option>
+                        <option value="11:00">11:00 AM</option>
+                        <option value="12:00">12:00 PM</option>
+                        <option value="13:00">01:00 PM</option>
+                        <option value="14:00">02:00 PM</option>
+                        <option value="15:00">03:00 PM</option>
+                        <option value="16:00">04:00 PM</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-question-circle"></i>
+                    <select id="reason" required>
+                        <option value="">Reason for Visit</option>
+                        <option value="consultation">Consultation</option>
+                        <option value="followup">Follow-up</option>
+                        <option value="emergency">Emergency</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn" id="appointment-submit-btn">Confirm Booking</button>
+            </form>
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll" id="contact-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Al-Mansoura Street, dakhalia, egypt</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+002 123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@almansourhospital.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Working Hours</h3>
+                            <p>24/7 - Emergency Service</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form animate-on-scroll">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Full Name</label>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email</label>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" required>
+                            <label for="phone">Phone Number</label>
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" required></textarea>
+                            <label for="message">Message</label>
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <button type="submit" class="submit-btn" id="contact-send-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section animate-on-scroll">
+                <h3 class="footer-title" id="footer-about-title">Al-Shifa Hospital</h3>
+                <p id="footer-about-desc">We provide the best medical services to care for your health</p>
+            </div>
+            <div class="footer-section animate-on-scroll">
+                <h3 class="footer-title" id="footer-links-title">Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#appointment">Book Appointment</a></li>
+                </ul>
+            </div>
+            <div class="footer-section animate-on-scroll">
+                <h3 class="footer-title" id="footer-social-title">Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p id="footer-bottom">&copy; 2024 Al-Shifa Hospital. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/booking.js">
+
+    </script>
+</body>
+</html> 

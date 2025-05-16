@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  color: #222;
+}
+
+.header {
+  background: #005b99;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 1em;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.intro, .services, .doctors {
+  margin-bottom: 2em;
+}
+
+h2, h3 {
+  color: #004080;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em;
+  background: #e9ecef;
+  margin-top: 2em;
+}
